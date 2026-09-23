@@ -133,8 +133,7 @@ typedef enum EGSyst {
   kINukeTwkDial_MFPHiE_N,       ///< tweak mean free path for nucleons, 600 <= KE MeV
   kINukeTwkDial_FrCEx_pi,    ///< tweak charge exchange probability for pions, for given total rescattering probability
   // sd - hA no longer has elastic fate
-  // J. Plows : if this fate is not supported it should be removed from Generator.
-  kINukeTwkDial_FrElas_pi,   ///< tweak elastic         probability for pions, for given total rescattering probability
+  kINVALIDINukeTwkDial_FrElas_pi,   ///< tweak elastic         probability for pions, for given total rescattering probability
   kINukeTwkDial_FrInel_pi,   ///< tweak inelastic       probability for pions, for given total rescattering probability
   kINukeTwkDial_FrAbs_pi,    ///< tweak absorption      probability for pions, for given total rescattering probability
   kINukeTwkDial_FrPiProd_pi, ///< tweak pion production probability for pions, for given total rescattering probability
@@ -151,8 +150,7 @@ typedef enum EGSyst {
   kINukeTwkDial_INCLHiE_N,     ///< tweak intranuclear scattering to INCL values, 600 <= KE
 
   kINukeTwkDial_FrCEx_N,     ///< tweak charge exchange probability for nucleons, for given total rescattering probability
-  // J. Plows : ditto here.
-  kINukeTwkDial_FrElas_N,    ///< tweak elastic         probability for nucleons, for given total rescattering probability
+  kINVALIDINukeTwkDial_FrElas_N,    ///< tweak elastic         probability for nucleons, for given total rescattering probability
   kINukeTwkDial_FrInel_N,    ///< tweak inelastic       probability for nucleons, for given total rescattering probability
   kINukeTwkDial_FrAbs_N,     ///< tweak absorption      probability for nucleons, for given total rescattering probability
   kINukeTwkDial_FrPiProd_N,  ///< tweak pion production probability for nucleons, for given total rescattering probability
